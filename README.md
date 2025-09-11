@@ -6,7 +6,7 @@
 
 ### демонстрация (Demonstração)
 
-![Gif da Aplicação](https://i.imgur.com/AAQnZF5.gif)
+![Gif da Aplicação](https://i.imgur.com/hZ8WTfd.gif)
 
 ---
 
