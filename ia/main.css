@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    outline: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+body {
+    background: #F5F8FF;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    background: #093366;
+}
+
+header .navbar a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .75vw;
+    margin: 2.3vh;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../assets/ia-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #7B71FF;
+}
+
+.home .home-texts {
+    margin-left: 15vw;
+    margin-bottom: 9vh;
+}
+
+.home .home-texts h2 {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+.home .home-texts h1 {
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-top: 1vh;
+}
+
+.home .home-texts p {
+    color: #fff;
+    font-size: .95vw;
+    max-width: 31%;
+    margin-top: 1vh;
+    line-height: 150%;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    flex-direction: column;
+    margin-top: -8vh;
+}
+
+.infos h1 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: rgba(9, 51, 102, 1);
+}
+
+.infos .infos-content {
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.infos .info-box {
+    width: 30vh;
+    margin-left: 8vh;
+}
+
+.infos .info-box h1 {
+    width: 15%;
+    border-top: .5vh solid #7B71FF;
+}
+
+.infos .info-box p {
+    color: #093366;
+    margin-top: 1vh;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    font-size: .9vw;
+}
+
+.infos .info-box a {
+    font-size: .8vw;
+    font-weight: 500;
+    border-bottom: 1.2px solid #093366;
+    color: #093366;
+}
