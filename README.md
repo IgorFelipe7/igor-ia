@@ -1,64 +1,38 @@
-# Igor.ia • Plataforma de IA com Simulador de IDE
+# Igor.ia — Plataforma de IA e simulador de IDE
 
-*Uma aplicação web full-stack que combina uma landing page sobre Inteligência Artificial, um painel de usuário com chat integrado à API da OpenAI e uma impressionante **simulação visual de um ambiente de desenvolvimento no Windows 11**, criada como projeto de destaque no início do Ensino Médio Técnico em TI.*
+Projeto acadêmico desenvolvido no início do Ensino Médio Técnico em TI. Reúne uma página sobre inteligência artificial, um painel com chat integrado à API da OpenAI e uma simulação visual do Windows 11 com o VS Code.
 
----
+O projeto foi uma forma de praticar o caminho completo de uma aplicação web: construir a interface, receber dados no PHP, persistir usuários no MySQL e integrar um serviço externo.
 
-### демонстрация (Demonstração)
+## Demonstração
 
-![Gif da Aplicação](https://i.imgur.com/hZ8WTfd.gif)
+![Demonstração da aplicação](https://i.imgur.com/hZ8WTfd.gif)
 
----
+## Funcionalidades
 
-### ✨ Sobre o Projeto
+- Página informativa sobre ferramentas de IA, com animações e layout em HTML, CSS e JavaScript.
+- Simulador de IDE com barra de tarefas, janela do editor, explorador de arquivos e abas.
+- Editor com CodeMirror e destaque de sintaxe para Python.
+- Cadastro e login, hashing de senhas e gerenciamento de sessões no backend PHP.
+- Painel de chat conectado à API da OpenAI pelo backend.
 
-O que começou como uma atividade avaliativa para o **primeiro bimestre do primeiro ano do Ensino Médio Técnico em TI**, rapidamente se tornou um projeto de paixão para explorar e aplicar conceitos avançados de desenvolvimento web.
+O simulador reproduz a interface de um ambiente de desenvolvimento. A edição de texto no navegador é parte dessa experiência visual.
 
-O objetivo era ir além dos requisitos básicos e construir uma aplicação completa que fosse tecnicamente desafiadora e visualmente única. O resultado é o **Igor.ia**, um projeto que demonstra uma atenção meticulosa aos detalhes e habilidades em front-end, back-end e integração de APIs.
+## Tecnologias
 
----
+| Camada | Ferramentas |
+| --- | --- |
+| Interface | HTML, CSS, JavaScript, SVG |
+| Backend e dados | PHP, MySQL |
+| Integrações | API da OpenAI, CodeMirror, jQuery e AOS |
 
-### 🚀 Funcionalidades Principais
+## Contexto de aprendizado
 
-* 🌐 **Landing Page Informativa:** Apresenta de forma clara e bonita informações sobre diversas Inteligências Artificiais.
-* 🖥️ **Simulador de Ambiente de Desenvolvimento (IDE):** A peça central do projeto. Uma interface totalmente construída com **HTML, CSS e JavaScript** que recria com alta fidelidade a aparência do Windows 11 com o Visual Studio Code aberto. Inclui:
-    * **Barra de Tarefas Funcional:** Com ícones de sistema e aplicativos.
-    * **Janela do VS Code Detalhada:** Com cabeçalho, menus, abas de arquivos com ícones específicos de linguagem, painel de explorador de arquivos e um editor de código funcional.
-    * **Editor de Código Real:** Utiliza a biblioteca **CodeMirror** para oferecer um campo de digitação com *syntax highlighting* para Python, simulando uma experiência de codificação real.
-* 🔒 **Sistema de Autenticação Completo:** Usuários podem se registrar e fazer login de forma segura. O back-end utiliza hashing para proteger as senhas.
-* 🤖 **Dashboard com Chat de IA:** Após o login, o usuário tem acesso a um painel com um chat funcional integrado diretamente à **API da OpenAI (GPT-3.5-turbo)**.
-* 🔑 **Gerenciamento de Sessão:** A autenticação e as sessões são gerenciadas de forma segura no back-end com **PHP**.
+A atividade começou no primeiro bimestre do curso técnico. Ao expandi-la, pratiquei composição de interfaces, manipulação do DOM, requisições AJAX, sessões e integração entre frontend e backend.
 
----
+É um registro dessa etapa da minha formação. A demonstração e o código permitem conhecer o escopo; a configuração do chat depende do serviço e do modelo definidos no backend.
 
-### 🛠️ Tecnologias Utilizadas
-
-Este projeto foi construído com as seguintes tecnologias:
-
-* **Front-End:**
-    * HTML5
-    * CSS3 (com uso extensivo de `flexbox`, `grid` e SVGs)
-    * JavaScript
-* **Back-End:**
-    * PHP
-* **Banco de Dados:**
-    * MySQL
-* **APIs e Bibliotecas:**
-    * **OpenAI API:** Para a funcionalidade do chat de IA.
-    * **CodeMirror:** Para o simulador de editor de código.
-    * **jQuery:** Para manipulação do DOM e requisições AJAX.
-    * **AOS (Animate On Scroll):** Para as animações na landing page.
-
----
-
-### 🌟 O Que Este Projeto Representa
-
-* **Fundamentos Sólidos Desde o Início:** Demonstra um forte domínio dos conceitos fundamentais de desenvolvimento web, aplicados em um estágio inicial da jornada de aprendizado.
-* **Ambição e Proatividade:** Mostra a iniciativa de ir além do esperado para uma atividade acadêmica, transformando-a em um portfólio robusto e memorável.
-* **Atenção Excepcional aos Detalhes:** A recriação fiel da interface do VS Code, incluindo ícones, menus e layout, prova uma habilidade rara de transformar um conceito em uma execução precisa.
-* **Aprendizagem Rápida:** A combinação de tantas tecnologias diferentes (front-end complexo, back-end seguro, API externa) evidencia uma alta capacidade de aprender e aplicar novos conhecimentos de forma eficaz.
-
----
+EN — Academic full stack project combining an AI information page, a PHP/MySQL user dashboard and a Windows/VS Code interface simulation. Built to practice web interfaces, authentication, data persistence and external API integration.
 
 ### ⚙️ Como Executar o Projeto Localmente
 
